@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="script/echarts.min.js"></script>
+        <script src="script/view.js"></script>
+        <script src="script/jquery-3.3.1.min.js"></script>
+        <title>Title</title>
+    </head>
+    <body>
+
+        <div id="date" style="width: 600px;height:100px;">
+            开始时间： <input id="startTime" type="date"/>
+            结束时间： <input id="endTime"  type="date"/>
+            <button type="button" onclick="querySumInfo()">查询!</button>
+        </div>
+        <div id="main" style="width: 600px;height:400px;"></div>
+
+        <script type="text/javascript">
+            var myChart = echarts.init(document.getElementById('main'));
+            initEchart();
+            querySumInfo();
+        </script>
+    </body>
+</html>
