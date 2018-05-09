@@ -1,11 +1,8 @@
 package com.cdhouse.springconfig;
 
-import com.cdhouse.data.crawl.IDealCrawl;
-import com.cdhouse.data.crawl.impl.DealCrawlImpl;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.*;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
@@ -13,20 +10,25 @@ import javax.sql.DataSource;
 import java.io.InputStream;
 import java.util.Properties;
 
+@PropertySource("classpath:mysql.properties")
 @Configuration
 @ComponentScan("com.cdhouse")
 public class RootConfig {
 
+    @Value("${mysql.jdbcUrl}")
+    private String jdbcUrl;
+    @Value("${mysql.user}")
+    private String user;
+    @Value("${mysql.password}")
+    private String password;
+
     @Bean
     public DataSource dataSource() throws Exception {
 
-        Properties properties = new Properties();
-        InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("com/cdhouse/resource/mysql.properties");
-        properties.load(inputStream);
         ComboPooledDataSource dataSource = new ComboPooledDataSource();
-        dataSource.setJdbcUrl(properties.getProperty("mysql.jdbcUrl"));
-        dataSource.setUser(properties.getProperty("mysql.user"));
-        dataSource.setPassword(properties.getProperty("mysql.password"));
+        dataSource.setJdbcUrl(jdbcUrl);
+        dataSource.setUser(user);
+        dataSource.setPassword(password);
         dataSource.setDriverClass("com.mysql.jdbc.Driver");
         return dataSource;
     }
