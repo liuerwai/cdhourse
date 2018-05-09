@@ -3,12 +3,13 @@ package com.cdhouse.schedule;
 import com.cdhouse.data.service.IDataService;
 import com.cdhouse.utils.LoggerUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 @Component
+@PropertySource("classpath:application.properties")
 public class Schedule {
 
     @Autowired
@@ -30,7 +31,7 @@ public class Schedule {
 
     @Scheduled(cron = "0 50 17 * * *")
     @Async
-    public void schedulPreSaleCrawl2() throws Exception{
+    public void schedulDealInfoCrawl() throws Exception{
 
         try{
             LoggerUtils.success("开始爬取交易信息");
