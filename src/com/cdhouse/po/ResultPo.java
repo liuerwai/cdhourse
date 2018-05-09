@@ -6,23 +6,25 @@ import org.apache.commons.lang.StringUtils;
 public class ResultPo {
 
     private Boolean status;
-    private Object rows;
+    private Object records;
     private String message;
+    private int queryRecordCount;
+    private int totalRecordCount;
 
-    public static  ResultPo success(Object rows, String message){
+    public static  ResultPo success(Object records, String message){
         ResultPo result = new ResultPo();
         if(StringUtils.isNotBlank(message)){
             result.setMessage(message);
         } else {
             result.setMessage("操作成功");
         }
-        result.rows = rows;
+        result.records = records;
         result.status = true;
         return result;
     }
 
-    public static  ResultPo success(Object rows){
-        return success(rows, null);
+    public static  ResultPo success(Object records){
+        return success(records, null);
     }
 
     public static  ResultPo error(String message){
@@ -48,14 +50,6 @@ public class ResultPo {
         this.status = status;
     }
 
-    public Object getRows() {
-        return rows;
-    }
-
-    public void setRows(Object rows) {
-        this.rows = rows;
-    }
-
     public String getMessage() {
         return message;
     }
@@ -64,5 +58,27 @@ public class ResultPo {
         this.message = message;
     }
 
+    public Object getRecords() {
+        return records;
+    }
 
+    public void setRecords(Object records) {
+        this.records = records;
+    }
+
+    public int getQueryRecordCount() {
+        return queryRecordCount;
+    }
+
+    public void setQueryRecordCount(int queryRecordCount) {
+        this.queryRecordCount = queryRecordCount;
+    }
+
+    public int getTotalRecordCount() {
+        return totalRecordCount;
+    }
+
+    public void setTotalRecordCount(int totalRecordCount) {
+        this.totalRecordCount = totalRecordCount;
+    }
 }

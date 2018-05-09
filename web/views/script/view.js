@@ -41,9 +41,9 @@ function  querySumInfo(){
                 myChart.setOption({
                     series: [{
                         data:[
-                            data.rows.preSaleMainCitySum,
-                            data.rows.dealNewSum,
-                            data.rows.dealSecondSum
+                            data.records.preSaleMainCitySum,
+                            data.records.dealNewSum,
+                            data.records.dealSecondSum
                         ]
                     }]
                 });
