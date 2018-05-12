@@ -5,6 +5,8 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Component;
 import com.cdhouse.po.PreSalePo;
 
+import java.util.List;
+
 @Component
 public interface IPreSaleDao {
 
@@ -23,4 +25,13 @@ public interface IPreSaleDao {
      * @return
      */
     public SumPo querySum(String startTime, String endTime) throws DataAccessException;
+
+    /**
+     * 查询预售信息
+     * @param startTime
+     * @param endTime
+     * @return
+     * @throws DataAccessException
+     */
+    public List<PreSalePo> queryPreSale(String startTime, String endTime) throws DataAccessException;
 }

@@ -20,6 +20,8 @@ public class PreSalePo {
     private Date time;
     // 预售时间str
     private String timeStr;
+    // 价格
+    private Integer price;
 
     public String getAreaId() {
         return areaId;
@@ -76,7 +78,15 @@ public class PreSalePo {
 
     public String toString(){
 
-        return "区域编号: " + areaId + "区域名称: "  + areaName + "区域l类型: "
-                + areaType + "小区名称: " + valligeName + "预售面积" + coverage+ "预售时间" + timeStr;
+        return "区域编号: " + areaId + " 区域名称: "  + areaName + " 区域l类型: "
+                + areaType + " 小区名称: " + valligeName + " 预售面积: " + coverage+ " 预售时间: " + timeStr + " 价格：" + price;
+    }
+
+    public Integer getPrice() {
+        return price;
+    }
+
+    public void setPrice(Integer price) {
+        this.price = price;
     }
 }

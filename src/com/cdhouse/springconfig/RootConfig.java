@@ -26,9 +26,13 @@ public class RootConfig {
     public DataSource dataSource() throws Exception {
 
         ComboPooledDataSource dataSource = new ComboPooledDataSource();
-        dataSource.setJdbcUrl(jdbcUrl);
-        dataSource.setUser(user);
-        dataSource.setPassword(password);
+//        dataSource.setJdbcUrl(jdbcUrl);
+//        dataSource.setUser(user);
+//        dataSource.setPassword(password);
+        dataSource.setJdbcUrl("jdbc:mysql://localhost/cdhouse?characterEncoding=UTF-8");
+        dataSource.setUser("root");
+        dataSource.setPassword("123456");
+        System.out.println(password);
         dataSource.setDriverClass("com.mysql.jdbc.Driver");
         return dataSource;
     }

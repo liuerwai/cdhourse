@@ -1,5 +1,6 @@
 package com.cdhouse.controller;
 
+import com.cdhouse.po.PreSalePo;
 import com.cdhouse.po.ResultPo;
 import com.cdhouse.po.Test;
 import com.cdhouse.service.ISumService;
@@ -28,16 +29,11 @@ public class SumController {
     }
 
     @ResponseBody
-    @RequestMapping("/queryDetails")
-    public ResultPo queryDetails(String startTime, String endTime) throws IOException {
+    @RequestMapping("/queryPreSaleInfo")
+    public ResultPo queryPreSaleInfo(String startTime, String endTime) throws IOException {
 
-        LoggerUtils.info("查询详细信息 startTime :" + startTime + "endTime" + endTime) ;
-        Test  test= new Test();
-        test.setSomeAttribute("aa");
-        test.setSomeOtherAttribute("bb");
-        List<Test> listTest = new ArrayList<>();
-        listTest.add(test);
-        listTest.add(test);
-        return  ResultPo.success(listTest);
+        LoggerUtils.info("查询预售信息 startTime :" + startTime + "endTime" + endTime) ;
+        List<PreSalePo> list = sumService.queryPreSaleInfo(startTime, endTime);
+        return  ResultPo.success(list, list.size(), list.size());
     }
 }

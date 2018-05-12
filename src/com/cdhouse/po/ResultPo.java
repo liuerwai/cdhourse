@@ -8,15 +8,22 @@ public class ResultPo {
     private Boolean status;
     private Object records;
     private String message;
-    private int queryRecordCount;
-    private int totalRecordCount;
+    private Integer queryRecordCount;
+    private Integer totalRecordCount;
 
-    public static  ResultPo success(Object records, String message){
+    public static  ResultPo success(Object records, String message, Integer queryRecordCount, Integer totalRecordCount){
+
         ResultPo result = new ResultPo();
         if(StringUtils.isNotBlank(message)){
             result.setMessage(message);
         } else {
             result.setMessage("操作成功");
+        }
+        if(queryRecordCount != null) {
+            result.setQueryRecordCount(queryRecordCount);
+        }
+        if(totalRecordCount != null) {
+            result.setTotalRecordCount(totalRecordCount);
         }
         result.records = records;
         result.status = true;
@@ -24,7 +31,11 @@ public class ResultPo {
     }
 
     public static  ResultPo success(Object records){
-        return success(records, null);
+        return success(records, null, null, null);
+    }
+
+    public static  ResultPo success(Object records, int queryRecordCount, int totalRecordCount){
+        return success(records, null, queryRecordCount, totalRecordCount);
     }
 
     public static  ResultPo error(String message){
@@ -66,19 +77,19 @@ public class ResultPo {
         this.records = records;
     }
 
-    public int getQueryRecordCount() {
+    public Integer getQueryRecordCount() {
         return queryRecordCount;
     }
 
-    public void setQueryRecordCount(int queryRecordCount) {
+    public void setQueryRecordCount(Integer queryRecordCount) {
         this.queryRecordCount = queryRecordCount;
     }
 
-    public int getTotalRecordCount() {
+    public Integer getTotalRecordCount() {
         return totalRecordCount;
     }
 
-    public void setTotalRecordCount(int totalRecordCount) {
+    public void setTotalRecordCount(Integer totalRecordCount) {
         this.totalRecordCount = totalRecordCount;
     }
 }

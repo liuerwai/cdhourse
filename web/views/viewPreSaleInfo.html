@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="script/jquery-3.3.1.min.js"></script>
+        <script src="script/jquery.dynatable.js"></script>
+        <script src="script/viewPreSaleInfo.js"></script>
+        <link type="text/css" rel="stylesheet" href="script/jquery.dynatable.css">
+        <title>供给详细信息</title>
+    </head>
+    <body>
+
+        <div id="date">
+            开始时间： <input id="startTime" type="date"/>
+            结束时间： <input id="endTime"  type="date"/>
+            <button type="button" onclick="queryPreSaleInfo()">查询!</button>
+        </div>
+        <div id="area">
+            <select id="search-area" name="area Name">
+                <option></option>
+                <option>金堂县</option>
+                <option>2003</option>
+                <option>2008</option>
+                <option>2013</option>
+            </select>
+        </div>
+        <div id="table" style="">
+            <table id="my-ajax-table" class="dynatable-active-page">
+                <thead>
+                <th>Area Name</th>
+                <th>Vallige Name</th>
+                <th>Coverage</th>
+                <th>TimeStr</th>
+                <th>Price</th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <script type="text/javascript">
+            var myTable = $('#my-ajax-table');
+            queryPreSaleInfo();
+            $('#search-area').change( function() {
+                var value = $(this).val();
+                if (value === "") {
+                    myTable.data('dynatable').queries.remove("areaName");
+                } else {
+                    myTable.data('dynatable').queries.add("areaName",value);
+                }
+                myTable.data('dynatable').process();
+            });
+        </script>
+    </body>
+</html>

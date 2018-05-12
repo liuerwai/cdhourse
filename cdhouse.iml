@@ -23,6 +23,7 @@
       <sourceFolder url="file://$MODULE_DIR$/hourse" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/crawl" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/schedule" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/resource" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

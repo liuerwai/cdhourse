@@ -13,6 +13,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
 import java.sql.Types;
+import java.util.List;
 
 @Component
 public class PreSaleDaoImpl implements IPreSaleDao {
@@ -77,5 +78,27 @@ public class PreSaleDaoImpl implements IPreSaleDao {
         }
 
         return jdbcTemplate.queryForObject(sql.toString(),  new BeanPropertyRowMapper<>(SumPo.class));
+    }
+
+    /**
+     * 查询预售信息
+     * @param startTime
+     * @param endTime
+     * @return
+     * @throws DataAccessException
+     */
+    public List<PreSalePo> queryPreSale(String startTime, String endTime) throws DataAccessException {
+
+        String tableName = getTalbeName();
+        StringBuffer sql = new StringBuffer("");
+        sql.append("SELECT * FROM ").append(tableName).append(" WHERE 1=1 ");
+        if(StringUtils.isNotBlank(startTime)){
+            sql.append( "AND TIME >= '").append(startTime).append("'");
+        }
+        if(StringUtils.isNotBlank(endTime)){
+            sql.append( "AND TIME <= '").append(endTime).append("'");
+        }
+        sql.append(" ORDER BY TIME DESC ");
+        return jdbcTemplate.query(sql.toString(),  new BeanPropertyRowMapper<>(PreSalePo.class));
     }
 }
