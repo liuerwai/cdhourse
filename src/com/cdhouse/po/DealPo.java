@@ -20,6 +20,8 @@ public class DealPo {
     private String timeStr;
     // 1：新房、2:二手房
     private String type;
+    // 数量
+    private Integer num;
 
     public String getAreaId() {
         return areaId;
@@ -72,5 +74,13 @@ public class DealPo {
 
     public void setAreaType(String areaType) {
         this.areaType = areaType;
+    }
+
+    public Integer getNum() {
+        return num;
+    }
+
+    public void setNum(Integer num) {
+        this.num = num;
     }
 }

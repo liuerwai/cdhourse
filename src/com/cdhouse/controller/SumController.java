@@ -2,16 +2,13 @@ package com.cdhouse.controller;
 
 import com.cdhouse.po.PreSalePo;
 import com.cdhouse.po.ResultPo;
-import com.cdhouse.po.Test;
-import com.cdhouse.service.ISumService;
-import com.sun.media.jfxmedia.logging.Logger;
+import com.cdhouse.webservice.ISumService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import com.cdhouse.utils.LoggerUtils;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 @org.springframework.stereotype.Controller

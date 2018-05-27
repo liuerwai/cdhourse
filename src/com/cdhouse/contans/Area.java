@@ -23,6 +23,8 @@ public enum Area {
     DA_YI("19", "大邑县", AreaType.DISTANT_CITY.value),
     PU_JIANG("20", "蒲江县", AreaType.DISTANT_CITY.value),
     XIN_JIN("21", "新津县", AreaType.DISTANT_CITY.value),
+    ZHONGXIN("20", "中心城区", AreaType.MAIN_CITY.value),
+    JIAOQU("21", "郊区新城", AreaType.DISTANT_CITY.value),
     OTHER("22", "其他", AreaType.MAIN_CITY.value);
 
     public String  value;

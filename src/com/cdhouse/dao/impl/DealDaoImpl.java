@@ -33,16 +33,17 @@ public class DealDaoImpl implements IDealDao {
     public int addDeal(DealPo dealPo) throws DataAccessException {
 
         StringBuffer sql = new StringBuffer("");
-        sql.append("INSERT INTO ").append(getTalbeName())
-                .append("(AREA_ID, AREA_NAME, AREA_TYPE, COVERAGE, TIME, TYPE)")
-                .append("VALUES(?, ?, ?, ?, ?, ?)");
-        String[] args = new String[]{
+        sql.append("REPLACE INTO ").append(getTalbeName())
+                .append("(AREA_ID, AREA_NAME, AREA_TYPE, COVERAGE, TIME, TYPE, NUM)")
+                .append("VALUES(?, ?, ?, ?, ?, ?, ?)");
+        Object[] args = new Object[]{
                 dealPo.getAreaId(),
                 dealPo.getAreaName(),
                 dealPo.getAreaType(),
                 dealPo.getCoverage().toString(),
                 dealPo.getTimeStr(),
-                dealPo.getType()
+                dealPo.getType(),
+                dealPo.getNum()
         };
         int[] argTypes = new int[]{
                 Types.VARCHAR,
@@ -51,6 +52,7 @@ public class DealDaoImpl implements IDealDao {
                 Types.DOUBLE,
                 Types.DATE,
                 Types.INTEGER,
+                Types.INTEGER
         };
         return jdbcTemplate.update(sql.toString(), args, argTypes);
     }

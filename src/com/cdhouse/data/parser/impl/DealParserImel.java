@@ -49,20 +49,30 @@ public class DealParserImel implements IDealParser {
         try {
             for (Element tr : table.getElementsByTag("tr")) {
                 Elements tds = tr.getElementsByTag("td");
-                if (tds != null && tds.size() == 4) {
-                    DealPo dealPo = new DealPo();
-                    // 区域信息
-                    Area area = Area.getEnum(tds.get(0).text());
-                    dealPo.setAreaId(area.value);
-                    dealPo.setAreaName(area.name);
-                    dealPo.setAreaType(area.type);
-                    // 面积
-                    dealPo.setCoverage(Float.valueOf(tds.get(1).text()));
-                    // 时间
-                    dealPo.setTime(new Date());
-                    // 类型
-                    dealPo.setType(Type);
-                    list.add(dealPo);
+                if (tds != null && tds.size() == 5) {
+                    try {
+                        DealPo dealPo = new DealPo();
+                        // 区域信息
+                        if(tds.get(0).text().contains("全市")){
+                            continue;
+                        }
+                        Area area = Area.getEnum(tds.get(0).text());
+                        dealPo.setAreaId(area.value);
+                        dealPo.setAreaName(area.name);
+                        dealPo.setAreaType(area.type);
+                        // 面积
+                        dealPo.setCoverage(Float.valueOf(tds.get(3).text()));
+                        // 时间
+                        dealPo.setTime(new Date());
+                        // 类型
+                        dealPo.setType(Type);
+                        // 数量
+                        dealPo.setNum(Integer.valueOf(tds.get(2).text()));
+                        list.add(dealPo);
+                    } catch (Exception e){
+                        e.getMessage();
+                        LoggerUtils.error("解析交易信息报错：" + table.text());
+                    }
                 }
             }
         } catch (Exception e) {

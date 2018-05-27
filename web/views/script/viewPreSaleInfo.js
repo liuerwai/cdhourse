@@ -3,7 +3,7 @@
  * 查询表格数据
  */
 function  queryPreSaleInfo(){
-    $.post("/queryPreSaleInfo",
+    $.post("/cdhouse/queryPreSaleInfo",
         {
             startTime:$("#startTime").val(),
             endTime:$("#endTime").val(),

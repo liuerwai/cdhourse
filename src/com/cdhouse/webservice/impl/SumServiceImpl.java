@@ -1,10 +1,10 @@
-package com.cdhouse.service.impl;
+package com.cdhouse.webservice.impl;
 
 import com.cdhouse.dao.IDealDao;
 import com.cdhouse.dao.IPreSaleDao;
 import com.cdhouse.po.PreSalePo;
 import com.cdhouse.po.SumPo;
-import com.cdhouse.service.ISumService;
+import com.cdhouse.webservice.ISumService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

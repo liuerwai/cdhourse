@@ -31,7 +31,7 @@ function initEchart() {
  */
 function  querySumInfo(){
 
-    $.post("/querySum",
+    $.post("/cdhouse/querySum",
         {
             startTime:$("#startTime").val(),
             endTime:$("#endTime").val(),
