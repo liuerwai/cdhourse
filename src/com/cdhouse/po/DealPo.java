@@ -1,6 +1,8 @@
 package com.cdhouse.po;
 
+import com.alibaba.fastjson.JSON;
 import com.cdhouse.utils.DateUtils;
+import sun.org.mozilla.javascript.internal.json.JsonParser;
 
 import java.util.Date;
 
@@ -82,5 +84,11 @@ public class DealPo {
 
     public void setNum(Integer num) {
         this.num = num;
+    }
+
+    @Override
+    public String toString(){
+
+        return JSON.toJSONString(this);
     }
 }

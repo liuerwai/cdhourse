@@ -34,7 +34,7 @@ public class PreSaleDaoImpl implements IPreSaleDao {
     public int addPreSale(PreSalePo preSalePo) throws DataAccessException {
 
         StringBuffer sql = new StringBuffer("");
-        sql.append("INSERT INTO ").append(getTalbeName())
+        sql.append("REPLACE INTO ").append(getTalbeName())
                 .append("(AREA_ID, AREA_NAME, AREA_TYPE, VALLIGE_NAME, COVERAGE, TIME)")
                 .append("VALUES(?, ?, ?, ?, ?, ?)");
         String[] args = new String[]{
