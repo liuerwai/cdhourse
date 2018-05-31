@@ -14,10 +14,10 @@ public enum HourseType {
         this.name = name;
     }
 
-    public static HourseType getEnum(String name){
+    public static HourseType getEnum(String value){
 
         for(HourseType item : HourseType.values()){
-            if(item.name.contains((name))){
+            if(item.value.contains((value))){
                 return item;
             }
         }

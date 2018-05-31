@@ -14,10 +14,10 @@ public enum AreaType {
         this.name = name;
     }
 
-    public static AreaType getEnum(String name){
+    public static AreaType getEnum(String value){
 
         for(AreaType item : AreaType.values()){
-            if(item.name.contains((name))){
+            if(item.value.contains((value))){
                 return item;
             }
         }

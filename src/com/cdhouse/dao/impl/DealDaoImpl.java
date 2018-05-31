@@ -4,6 +4,7 @@ import com.cdhouse.contans.HourseType;
 import com.cdhouse.contans.Table;
 import com.cdhouse.dao.IDealDao;
 import com.cdhouse.po.DealPo;
+import com.cdhouse.po.PreSalePo;
 import com.cdhouse.po.SumPo;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
 import java.sql.Types;
+import java.util.List;
 
 @Component
 public class DealDaoImpl implements IDealDao {
@@ -78,6 +80,28 @@ public class DealDaoImpl implements IDealDao {
             sql.append( "AND TIME <= '").append(endTime).append("'");
         }
         return jdbcTemplate.queryForObject(sql.toString(),  new BeanPropertyRowMapper<>(SumPo.class));
+    }
+
+    /**
+     * 查询交易信息
+     * @param startTime
+     * @param endTime
+     * @return
+     * @throws DataAccessException
+     */
+    public List<DealPo> queryDealInfo(String startTime, String endTime) throws DataAccessException {
+
+        String tableName = getTalbeName();
+        StringBuffer sql = new StringBuffer("");
+        sql.append("SELECT * FROM ").append(tableName).append(" WHERE 1=1 ");
+        if(StringUtils.isNotBlank(startTime)){
+            sql.append( "AND TIME >= '").append(startTime).append("'");
+        }
+        if(StringUtils.isNotBlank(endTime)){
+            sql.append( "AND TIME <= '").append(endTime).append("'");
+        }
+        sql.append(" ORDER BY TIME DESC ");
+        return jdbcTemplate.query(sql.toString(),  new BeanPropertyRowMapper<>(DealPo.class));
     }
 
 }

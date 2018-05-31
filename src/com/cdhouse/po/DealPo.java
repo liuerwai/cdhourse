@@ -1,7 +1,9 @@
 package com.cdhouse.po;
 
 import com.alibaba.fastjson.JSON;
+import com.cdhouse.contans.HourseType;
 import com.cdhouse.utils.DateUtils;
+import org.apache.commons.lang.StringUtils;
 import sun.org.mozilla.javascript.internal.json.JsonParser;
 
 import java.util.Date;
@@ -24,6 +26,8 @@ public class DealPo {
     private String type;
     // 数量
     private Integer num;
+    // 1：新房、2:二手房
+    private String typeStr;
 
     public String getAreaId() {
         return areaId;
@@ -68,6 +72,9 @@ public class DealPo {
 
     public void setType(String type) {
         this.type = type;
+        if(StringUtils.isNotBlank(type)){
+            typeStr = HourseType.getEnum(type).name;
+        }
     }
 
     public String getAreaType() {
@@ -84,6 +91,10 @@ public class DealPo {
 
     public void setNum(Integer num) {
         this.num = num;
+    }
+
+    public String getTypeStr() {
+        return typeStr;
     }
 
     @Override

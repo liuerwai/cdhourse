@@ -2,16 +2,17 @@ package com.cdhouse.webservice.impl;
 
 import com.cdhouse.dao.IDealDao;
 import com.cdhouse.dao.IPreSaleDao;
+import com.cdhouse.po.DealPo;
 import com.cdhouse.po.PreSalePo;
 import com.cdhouse.po.SumPo;
-import com.cdhouse.webservice.ISumService;
+import com.cdhouse.webservice.IService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class SumServiceImpl implements ISumService {
+public class ServiceImpl implements IService {
 
     @Autowired
     IPreSaleDao preSaleDao;
@@ -45,5 +46,16 @@ public class SumServiceImpl implements ISumService {
     public List<PreSalePo> queryPreSaleInfo(String startTime, String endTime) {
 
         return preSaleDao.queryPreSale(startTime, endTime);
+    }
+
+    /**
+     * 查询交易信息
+     * @param startTime
+     * @param endTime
+     * @return
+     */
+    public List<DealPo> queryDealInfo(String startTime, String endTime) {
+
+        return dealDao.queryDealInfo(startTime, endTime);
     }
 }

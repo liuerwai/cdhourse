@@ -4,51 +4,39 @@
         <meta charset="UTF-8">
         <script src="script/jquery-3.3.1.min.js"></script>
         <script src="script/jquery.dynatable.js"></script>
-        <script src="script/viewPreSaleInfo.js"></script>
+        <script src="script/viewDealInfo.js"></script>
         <link type="text/css" rel="stylesheet" href="script/jquery.dynatable.css">
-        <title>预售详细信息</title>
+        <title>售卖详细信息</title>
     </head>
     <body>
 
         <div id="date">
             开始时间： <input id="startTime" type="date"/>
             结束时间： <input id="endTime"  type="date"/>
-            <button type="button" onclick="queryPreSaleInfo()">查询!</button>
+            <button type="button" onclick="queryDealInfo()">查询!</button>
         </div>
         <div id="area">
             <select id="search-area" name="area Name">
                 <option></option>
-                <option>金堂县</option>
-                <option>青羊区</option>
-                <option>金牛区</option>
-                <option>武侯区</option>
-                <option>成华区</option>
-                <option>高新区</option>
-                <option>天府新区</option>
-                <option>龙泉驿区</option>
-                <option>新都区</option>
-                <option>温江区</option>
-                <option>双流区</option>
-                <option>锦江区</option>
-                <option>简阳市</option>
-                <option>都江堰市</option>
-                <option>邛崃市</option>
-                <option>彭州市</option>
-                <option>崇州市</option>
-                <option>郫都区</option>
-                <option>大邑县</option>
-                <option>蒲江县</option>
-                <option>新津县</option>
+                <option>中心城区</option>
+                <option>郊区新城</option>
+            </select>
+        </div>
+        <div id="type">
+            <select id="search-type" name="area Type">
+                <option></option>
+                <option>新房</option>
+                <option>二手房</option>
             </select>
         </div>
         <div id="table" style="">
             <table id="my-ajax-table" class="dynatable-active-page">
                 <thead>
                 <th>Area Name</th>
-                <th>Vallige Name</th>
+                <th>TypeStr</th>
+                <th>Num</th>
                 <th>Coverage</th>
                 <th>TimeStr</th>
-                <th>Price</th>
                 </thead>
                 <tbody>
                 </tbody>
@@ -57,13 +45,23 @@
 
         <script type="text/javascript">
             var myTable = $('#my-ajax-table');
-            queryPreSaleInfo();
+            queryDealInfo();
             $('#search-area').change( function() {
                 var value = $(this).val();
                 if (value === "") {
                     myTable.data('dynatable').queries.remove("areaName");
                 } else {
                     myTable.data('dynatable').queries.add("areaName",value);
+                }
+                myTable.data('dynatable').process();
+            });
+
+            $('#search-type').change( function() {
+                var value = $(this).val();
+                if (value === "") {
+                    myTable.data('dynatable').queries.remove("typeStr");
+                } else {
+                    myTable.data('dynatable').queries.add("typeStr",value);
                 }
                 myTable.data('dynatable').process();
             });
