@@ -1,0 +1,15 @@
+/WebRoot/*/node_modules/*
+bs-config.js
+.idea/
+web/WEB-INF/classes/
+WebRoot/vue-static/dist/
+WebRoot/downloads/
+WebRoot/upload/
+*.iml
+myAlltest/
+*-copy.vue
+*-copy.jsp
+*-copy.less
+/.settings/
+/.classpath
+/target/
