@@ -4,11 +4,11 @@ import com.alibaba.fastjson.JSON;
 import com.cdhouse.contans.HourseType;
 import com.cdhouse.utils.DateUtils;
 import org.apache.commons.lang.StringUtils;
-import sun.org.mozilla.javascript.internal.json.JsonParser;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class DealPo {
+public class DealPo implements Serializable{
 
     // 区域编号
     private String areaId;
@@ -72,7 +72,7 @@ public class DealPo {
 
     public void setType(String type) {
         this.type = type;
-        if(StringUtils.isNotBlank(type)){
+        if (StringUtils.isNotBlank(type)) {
             typeStr = HourseType.getEnum(type).name;
         }
     }
@@ -98,8 +98,12 @@ public class DealPo {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
 
         return JSON.toJSONString(this);
+    }
+
+    public String getKey(){
+        return getTimeStr() + "-" + getAreaName() + "-" + typeStr;
     }
 }

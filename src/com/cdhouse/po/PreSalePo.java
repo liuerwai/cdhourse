@@ -2,9 +2,10 @@ package com.cdhouse.po;
 
 import com.cdhouse.utils.DateUtils;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class PreSalePo {
+public class PreSalePo implements Serializable{
 
     // 区域编号
     private String areaId;
@@ -88,5 +89,9 @@ public class PreSalePo {
 
     public void setPrice(Integer price) {
         this.price = price;
+    }
+
+    public String getKey(){
+        return getTimeStr() + "_" + getAreaName() + "_" + getValligeName();
     }
 }

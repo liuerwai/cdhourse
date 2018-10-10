@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="cdhouse">
-    <output-path>$PROJECT_DIR$/out/artifacts/cdhouse</output-path>
+    <output-path>$PROJECT_DIR$/artifacts/cdhouse</output-path>
     <root id="archive" name="cdhouse.war">
       <element id="dir-copy" path="$PROJECT_DIR$/web" />
     </root>

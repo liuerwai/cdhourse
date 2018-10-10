@@ -2,7 +2,10 @@ package com.cdhouse.test;
 
 
 import com.cdhouse.controller.Controller;
+import com.cdhouse.dao.IDealDao;
+import com.cdhouse.dao.IPreSaleDao;
 import com.cdhouse.data.service.impl.DataServiceImpl;
+import com.cdhouse.po.DealPo;
 import com.cdhouse.springconfig.RootConfig;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +26,12 @@ public class Test {
     @Autowired
     DataServiceImpl dataService;
 
+    @Autowired
+    IDealDao dealDao;
+
+    @Autowired
+    IPreSaleDao preSaleDao;
+
 //    @org.junit.Test
 //    public void test() throws Exception{
 //
@@ -36,7 +45,12 @@ public class Test {
 
     @org.junit.Test
     public void test() throws Exception{
+        dataService.crawelDealInfo();
         dataService.crawelPreSaleInfo();
+        dealDao.queryDealInfo("2017-07-01", "2018-12-12");
+        dealDao.querySum("2017-07-01", "2018-12-12");
+        preSaleDao.queryPreSale("2017-07-01", "2018-12-12");
+        preSaleDao.querySum("2017-07-01", "2018-12-12");
 
     }
 

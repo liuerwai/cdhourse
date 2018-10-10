@@ -7,24 +7,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe13c4f8-c124-41ca-9a50-8e8e3554b337" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/controller/SumController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/cdhouse/cdhouse.war" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/contans/Area.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/contans/Area.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/contans/AreaType.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/contans/AreaType.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/contans/HourseType.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/contans/HourseType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/contans/Table.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/contans/Table.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/dao/IDealDao.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/dao/IDealDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/dao/IPreSaleDao.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/dao/IPreSaleDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/dao/impl/DealDaoImpl.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/dao/impl/DealDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/dao/impl/PreSaleDaoImpl.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/dao/impl/PreSaleDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/crawl/IDealCrawl.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/crawl/IDealCrawl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/crawl/IPreSaleCrawl.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/crawl/IPreSaleCrawl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/crawl/impl/DealCrawlImpl.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/crawl/impl/DealCrawlImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/crawl/impl/PreSaleCrawlImpl.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/crawl/impl/PreSaleCrawlImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/parser/IDealParser.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/parser/IDealParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/parser/IPreSaleParser.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/parser/IPreSaleParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/parser/impl/DealParserImel.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/parser/impl/DealParserImel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/parser/impl/PreSaleParserImpl.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/parser/impl/PreSaleParserImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/service/IDataService.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/service/IDataService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/service/impl/DataServiceImpl.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/data/service/impl/DataServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/po/DealPo.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/po/DealPo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/po/PreSalePo.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/po/PreSalePo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/po/ResultPo.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/po/ResultPo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/po/SumPo.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/po/SumPo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/po/Test.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/po/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/schedule/Schedule.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/schedule/Schedule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/springconfig/DispatcherServletConfig.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/springconfig/DispatcherServletConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/springconfig/RootConfig.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/springconfig/RootConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/springconfig/ScheDuleConfig.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/springconfig/ScheDuleConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/springconfig/WebInitializer.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/springconfig/WebInitializer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/test/Test.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/test/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/DateUtils$1.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/DateUtils$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/DateUtils.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/DateUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/HttpClientTest$1.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/HttpClientTest$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/HttpClientTest$2.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/HttpClientTest$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/HttpClientTest$3.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/HttpClientTest$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/HttpClientTest.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/HttpClientTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/HttpClientUtils.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/HttpClientUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/LoggerUtils.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/LoggerUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/MyLogger.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cdhouse/utils/MyLogger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/cdhouse.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/cdhouse.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cdhouse/contans/AreaType.java" afterPath="$PROJECT_DIR$/src/com/cdhouse/contans/AreaType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cdhouse/contans/HourseType.java" afterPath="$PROJECT_DIR$/src/com/cdhouse/contans/HourseType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cdhouse/dao/IDealDao.java" afterPath="$PROJECT_DIR$/src/com/cdhouse/dao/IDealDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cdhouse/dao/impl/DealDaoImpl.java" afterPath="$PROJECT_DIR$/src/com/cdhouse/dao/impl/DealDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cdhouse.iml" afterPath="$PROJECT_DIR$/cdhouse.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cdhouse/po/DealPo.java" afterPath="$PROJECT_DIR$/src/com/cdhouse/po/DealPo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cdhouse/po/PreSalePo.java" afterPath="$PROJECT_DIR$/src/com/cdhouse/po/PreSalePo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cdhouse/test/Test.java" afterPath="$PROJECT_DIR$/src/com/cdhouse/test/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cdhouse/utils/DateUtils.java" afterPath="$PROJECT_DIR$/src/com/cdhouse/utils/DateUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/views/viewDealInfo.html" afterPath="$PROJECT_DIR$/web/views/viewDealInfo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/views/viewPreSaleInfo.html" afterPath="$PROJECT_DIR$/web/views/viewPreSaleInfo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/cdhouse/controller/SumController.java" afterPath="$PROJECT_DIR$/src/com/cdhouse/controller/Controller.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/cdhouse/webservice/ISumService.java" afterPath="$PROJECT_DIR$/src/com/cdhouse/webservice/IService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/cdhouse/webservice/impl/SumServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/cdhouse/webservice/impl/ServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/views/viewSumInfo.html" afterPath="$PROJECT_DIR$/web/views/viewSumInfo.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,21 +74,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DealDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cdhouse/dao/impl/DealDaoImpl.java">
+      <file leaf-file-name="PreSaleDaoSerilizeImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cdhouse/dao/impl2/PreSaleDaoSerilizeImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1617">
-              <caret line="65" column="14" lean-forward="true" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="-678">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IDealDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cdhouse/dao/IDealDao.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cdhouse/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="217">
+              <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -65,71 +99,72 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cdhouse/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+            <state relative-caret-position="270">
+              <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DealPo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cdhouse/po/DealPo.java">
+      <file leaf-file-name="DateUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cdhouse/utils/DateUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+            <state relative-caret-position="195">
+              <caret line="11" column="67" lean-forward="false" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
               <folding>
-                <element signature="method#setTime#0;class#DealPo#0" expanded="false" />
-                <element signature="method#toString#0;class#DealPo#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewDealInfo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="viewDealInfo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/views/viewDealInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="63" column="66" lean-forward="false" selection-start-line="63" selection-start-column="66" selection-end-line="63" selection-end-column="66" />
+            <state relative-caret-position="575">
+              <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viewDealInfo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views/script/viewDealInfo.js">
+      <file leaf-file-name="Schedule.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cdhouse/schedule/Schedule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="1369">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AreaType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cdhouse/contans/AreaType.java">
+      <file leaf-file-name="viewPreSaleInfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/viewPreSaleInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            <state relative-caret-position="375">
+              <caret line="59" column="33" lean-forward="false" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HourseType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cdhouse/contans/HourseType.java">
+      <file leaf-file-name="viewSumInfo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/viewSumInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="612">
+              <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Area.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cdhouse/contans/Area.java">
+      <file leaf-file-name="viewSumInfo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views/script/viewSumInfo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="56">
+              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -138,8 +173,8 @@
       <file leaf-file-name="ServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cdhouse/webservice/impl/ServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+            <state relative-caret-position="167">
+              <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -152,9 +187,9 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -176,6 +211,7 @@
       <find>保存交易信息报错</find>
       <find>dealDao</find>
       <find>areaType</find>
+      <find>cdhouse/querySum</find>
     </findStrings>
     <replaceStrings>
       <replace>?</replace>
@@ -194,12 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cdhouse/data/crawl/impl/PreSaleCrawlImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/cdhouse/data/parser/impl/PreSaleParserImel.java" />
-        <option value="$PROJECT_DIR$/src/com/cdhouse/data/schedule/Schedule.java" />
-        <option value="$PROJECT_DIR$/src/com/cdhouse/data/service/IDataService.java" />
-        <option value="$PROJECT_DIR$/src/com/cdhouse/data/parser/IDealParser.java" />
-        <option value="$PROJECT_DIR$/src/com/cdhouse/data/dao/IDealDao.java" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/data/dao/impl/DealDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/data/service/impl/DataServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/utils/MyLogger.java" />
@@ -215,7 +245,6 @@
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/views/view.html" />
         <option value="$PROJECT_DIR$/web/views/script/view.js" />
-        <option value="$PROJECT_DIR$/src/com/cdhouse/po/PreSalePo.java" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/service/ISumService.java" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/dao/IPreSaleDao.java" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/service/impl/SumServiceImpl.java" />
@@ -223,19 +252,14 @@
         <option value="$PROJECT_DIR$/src/com/cdhouse/controller/SumController.java" />
         <option value="$PROJECT_DIR$/web/views/viewDetail.html" />
         <option value="$PROJECT_DIR$/web/views/viewPreInfo.html" />
-        <option value="$PROJECT_DIR$/web/views/viewSumInfo.html" />
         <option value="$PROJECT_DIR$/web/views/script/jquery.dynatable.css" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/contans/Area.java" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/data/parser/impl/DealParserImel.java" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/data/crawl/impl/DealCrawlImpl.java" />
         <option value="$PROJECT_DIR$/web/views/script/viewSumInfo.js" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/springconfig/RootConfig.java" />
-        <option value="$PROJECT_DIR$/src/com/cdhouse/dao/impl/PreSaleDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/cdhouse/test/Test.java" />
-        <option value="$PROJECT_DIR$/web/views/viewPreSaleInfo.html" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/webservice/IService.java" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/webservice/impl/ServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/cdhouse/dao/impl/DealDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/dao/IDealDao.java" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/contans/AreaType.java" />
@@ -243,7 +267,19 @@
         <option value="$PROJECT_DIR$/web/views/script/viewPreSaleInfo.js" />
         <option value="$PROJECT_DIR$/web/views/script/viewDealInfo.js" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/contans/HourseType.java" />
+        <option value="$PROJECT_DIR$/src/com/cdhouse/serialize/PresaleSerializer.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/lib/httpclient-4.5.5.jar!/org/apache/http/client/utils/DateUtils.class" />
+        <option value="$PROJECT_DIR$/src/com/cdhouse/po/PreSalePo.java" />
         <option value="$PROJECT_DIR$/src/com/cdhouse/po/DealPo.java" />
+        <option value="$PROJECT_DIR$/src/com/cdhouse/dao/impl/DealDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cdhouse/dao/impl/PreSaleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cdhouse/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/cdhouse/serialize/SerializerUtills.java" />
+        <option value="$PROJECT_DIR$/src/com/cdhouse/dao/impl2/DealDaoSerializeImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/cdhouse/utils/DateUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/cdhouse/dao/impl2/PreSaleDaoSerilizeImpl.java" />
+        <option value="$PROJECT_DIR$/web/views/viewSumInfo.html" />
+        <option value="$PROJECT_DIR$/web/views/viewPreSaleInfo.html" />
         <option value="$PROJECT_DIR$/web/views/viewDealInfo.html" />
       </list>
     </option>
@@ -261,11 +297,11 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="128" />
-    <option name="y" value="103" />
-    <option name="width" value="1460" />
-    <option name="height" value="865" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-382" />
+    <option name="y" value="85" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -282,10 +318,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,61 +342,7 @@
               <item name="cdhourse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cdhouse" type="462c0819:PsiDirectoryNode" />
-              <item name="contans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cdhourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdhourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cdhouse" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cdhourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdhourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cdhouse" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cdhourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdhourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cdhouse" type="462c0819:PsiDirectoryNode" />
-              <item name="po" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cdhourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdhourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cdhouse" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cdhourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdhourse" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cdhouse" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cdhourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdhourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cdhourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdhourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cdhourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdhourse" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
+              <item name="schedule" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cdhourse" type="b2602c69:ProjectViewProjectNode" />
@@ -373,32 +352,35 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/code/ems" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3141123" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\cdhouse" />
+      <recent name="D:\code\cdhouse\web" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\cdhourse\web\WEB-INF\lib" />
       <recent name="D:\cdhourse\web\views\script" />
       <recent name="D:\cdhourse\web\views" />
       <recent name="D:\cdhourse\web\WEB-INF\lib" />
       <recent name="D:\code\cdhouse\web\views\script" />
-      <recent name="D:\code\cdhouse\web\WEB-INF\lib" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\cdhouse" />
-      <recent name="D:\code\cdhouse\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -441,6 +423,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.cdhouse.data.crawl.impl.PreSaleCrawlImpl" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cdhouse" />
+      <envs />
+    </configuration>
+    <configuration name="SerializerUtills" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cdhouse.serialize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.cdhouse.serialize.SerializerUtills" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -583,7 +584,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="cd" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.8244444444" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="cd" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/viewSumInfo.html" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -651,19 +652,21 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.cd" />
       <item index="1" class="java.lang.String" itemvalue="Application.PreSaleCrawlImpl" />
       <item index="2" class="java.lang.String" itemvalue="Application.DealCrawlImpl" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Test.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Test.test (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SerializerUtills" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Test.test" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.Test.test (1)" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.Test.test (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DealCrawlImpl" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PreSaleCrawlImpl" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Test.test" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SerializerUtills" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DealCrawlImpl" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PreSaleCrawlImpl" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Test.test" />
       </list>
     </recent_temporary>
   </component>
@@ -715,46 +718,48 @@
       <workItem from="1527556236835" duration="2808000" />
       <workItem from="1527647108062" duration="598000" />
       <workItem from="1527731753096" duration="5137000" />
+      <workItem from="1539069524820" duration="9023000" />
+      <workItem from="1539134692724" duration="10436000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_test_(1) - 2018.03.27 at 15h 55m 37s.xml">
+    <history-entry file="Test_test_(1) - 2018.10.10 at 11h 22m 27s.xml">
       <configuration name="Test.test (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2018.03.27 at 15h 56m 40s.xml">
+    <history-entry file="Test_test_(1) - 2018.10.10 at 11h 25m 29s.xml">
       <configuration name="Test.test (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2018.03.27 at 15h 58m 20s.xml">
+    <history-entry file="Test_test_(1) - 2018.10.10 at 11h 25m 49s.xml">
       <configuration name="Test.test (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2018.04.12 at 09h 43m 26s.xml">
+    <history-entry file="Test_test_(1) - 2018.10.10 at 11h 27m 15s.xml">
       <configuration name="Test.test (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2018.05.28 at 19h 09m 32s.xml">
+    <history-entry file="Test_test_(1) - 2018.10.10 at 11h 28m 04s.xml">
       <configuration name="Test.test (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2018.05.28 at 19h 13m 13s.xml">
+    <history-entry file="Test_test_(1) - 2018.10.10 at 11h 33m 38s.xml">
       <configuration name="Test.test (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2018.05.28 at 19h 16m 42s.xml">
+    <history-entry file="Test_test_(1) - 2018.10.10 at 11h 37m 05s.xml">
       <configuration name="Test.test (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2018.05.28 at 20h 07m 10s.xml">
+    <history-entry file="Test_test_(1) - 2018.10.10 at 11h 39m 36s.xml">
       <configuration name="Test.test (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2018.05.28 at 20h 08m 25s.xml">
+    <history-entry file="Test_test_(1) - 2018.10.10 at 11h 39m 51s.xml">
       <configuration name="Test.test (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2018.05.28 at 20h 09m 24s.xml">
+    <history-entry file="Test_test_(1) - 2018.10.10 at 11h 42m 14s.xml">
       <configuration name="Test.test (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149314000" />
+    <option name="totallyTimeSpent" value="168773000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="128" y="103" width="1460" height="865" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -767,20 +772,20 @@
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22215675" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33241758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17765363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282967" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273743" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.087051146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37206703" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24857143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19029851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3021978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30167598" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -807,168 +812,11 @@
           <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="82" />
+      <option name="time" value="100" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-4.1.1.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2726">
-          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-web-4.1.1.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2871">
-          <caret line="130" column="9" lean-forward="false" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/data/parser/IDealParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/data/parser/impl/PreSaleParserImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1073">
-          <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/utils/LoggerUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/script/echarts.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248907">
-          <caret line="0" column="706110" lean-forward="false" selection-start-line="0" selection-start-column="706110" selection-end-line="0" selection-end-column="706110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/script/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/po/SumPo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/script/vue.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/springconfig/DispatcherServletConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/dao/IPreSaleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-4.1.1.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="476" column="23" lean-forward="false" selection-start-line="476" selection-start-column="23" selection-end-line="476" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.45-bin.jar!/com/mysql/jdbc/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3618">
-          <caret line="277" column="0" lean-forward="false" selection-start-line="277" selection-start-column="0" selection-end-line="277" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/mysql.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/po/ResultPo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/script/jquery.dynatable.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/script/jquery.dynatable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/schedule/Schedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/viewSumInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="64" lean-forward="false" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cdhouse/data/crawl/impl/PreSaleCrawlImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -984,31 +832,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/script/viewSumInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1089">
-          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="235" column="18" lean-forward="false" selection-start-line="235" selection-start-column="18" selection-end-line="235" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/po/PreSalePo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-359">
-          <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/data/parser/impl/DealParserImel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1030,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13794">
           <caret line="477" column="0" lean-forward="false" selection-start-line="477" selection-start-column="0" selection-end-line="477" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,54 +864,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13992">
           <caret line="536" column="16" lean-forward="false" selection-start-line="536" selection-start-column="16" selection-end-line="536" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/webservice/IService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/springconfig/RootConfig.java">
+    <entry file="file://$PROJECT_DIR$/web/views/script/viewPreSaleInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="31" column="99" lean-forward="false" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="99" />
-          <folding />
+        <state relative-caret-position="33">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/po/Test.java">
+    <entry file="file://$PROJECT_DIR$/web/views/script/viewDealInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/data/service/impl/DataServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2442">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/viewPreSaleInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/dao/impl/PreSaleDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="89" column="27" lean-forward="false" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
+        <state relative-caret-position="148">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1098,101 +898,330 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/webservice/IService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/data/service/impl/DataServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="326">
+          <caret line="84" column="41" lean-forward="false" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/webservice/impl/ServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/utils/HttpClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+        <state relative-caret-position="-1332">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/data/parser/impl/DealParserImel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/controller/Controller.java">
+    <entry file="file://$PROJECT_DIR$/resource/presaleMap.ser">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/dealPathMap.ser">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/serialize/PresaleSerializer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33041">
+          <caret line="971" column="67" lean-forward="false" selection-start-line="971" selection-start-column="67" selection-end-line="971" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/dao/impl/DealDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/po/SumPo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="65" column="14" lean-forward="true" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+        <state relative-caret-position="407">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/contans/Area.java">
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/httpclient-4.5.5.jar!/org/apache/http/client/utils/DateUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="222">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/script/viewPreSaleInfo.js">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/text/DateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="11507">
+          <caret line="360" column="16" lean-forward="false" selection-start-line="360" selection-start-column="16" selection-end-line="360" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/script/viewDealInfo.js">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="289">
+          <caret line="850" column="31" lean-forward="false" selection-start-line="850" selection-start-column="31" selection-end-line="850" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/dao/IDealDao.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/contans/AreaType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        <state relative-caret-position="281">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cdhouse/contans/HourseType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="240">
           <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/contans/AreaType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/contans/Area.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/dao/IDealDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/springconfig/RootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/springconfig/ScheDuleConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-778">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/springconfig/WebInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/springconfig/DispatcherServletConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-593">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/po/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/dao/impl/DealDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3071">
+          <caret line="99" column="44" lean-forward="true" selection-start-line="99" selection-start-column="44" selection-end-line="99" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/dao/impl/PreSaleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-test-4.1.1.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/dao/IPreSaleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/dao/impl2/DealDaoSerializeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/serialize/SerializerUtills.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2590">
+          <caret line="73" column="26" lean-forward="false" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cdhouse/po/DealPo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+        <state relative-caret-position="37">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#setTime#0;class#DealPo#0" expanded="false" />
-            <element signature="method#toString#0;class#DealPo#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/po/PreSalePo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="94" column="56" lean-forward="false" selection-start-line="94" selection-start-column="56" selection-end-line="94" selection-end-column="56" />
+          <folding>
+            <element signature="method#toString#0;class#PreSalePo#0" expanded="false" />
+            <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#1983#1984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/utils/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="11" column="67" lean-forward="false" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/script/viewSumInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/webservice/impl/ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/dao/impl2/PreSaleDaoSerilizeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-678">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/viewSumInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/viewPreSaleInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="59" column="33" lean-forward="false" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/views/viewDealInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="63" column="66" lean-forward="false" selection-start-line="63" selection-start-column="66" selection-end-line="63" selection-end-column="66" />
+        <state relative-caret-position="575">
+          <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cdhouse/schedule/Schedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1369">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1205,9 +1234,9 @@
           <artifact-editor>
             <show-content>
               <type id="artifact" />
-              <type id="library" />
-              <type id="javaee-facet-resources" />
               <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
             </show-content>
           </artifact-editor>
           <last-edited>cdhouse</last-edited>
