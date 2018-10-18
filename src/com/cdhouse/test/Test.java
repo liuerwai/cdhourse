@@ -1,12 +1,16 @@
 package com.cdhouse.test;
 
 
+import com.cdhouse.contans.Area;
+import com.cdhouse.contans.AreaType;
+import com.cdhouse.contans.HourseType;
 import com.cdhouse.controller.Controller;
 import com.cdhouse.dao.IDealDao;
 import com.cdhouse.dao.IPreSaleDao;
 import com.cdhouse.data.service.impl.DataServiceImpl;
 import com.cdhouse.po.DealPo;
 import com.cdhouse.springconfig.RootConfig;
+import com.cdhouse.utils.DateUtils;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
@@ -40,25 +44,29 @@ public class Test {
     @Autowired
     IPreSaleDao preSaleDao;
 
+//    @org.junit.Test
+//    public void test() throws Exception{
+//
+//        String url = "/queryDealInfoForChartLine";
+//        MockMvc mockMvc = MockMvcBuilders.webAppContextSetup(webAppConfiguration).build();
+//        String content = mockMvc.perform(MockMvcRequestBuilders.get(url))
+//                .andExpect(MockMvcResultMatchers.status().isOk())
+//                .andReturn().getResponse().getContentAsString();
+//        System.out.println(content);
+//    }
+
     @org.junit.Test
     public void test() throws Exception{
 
-        String url = "/queryDealInfoForChartLine";
-        MockMvc mockMvc = MockMvcBuilders.webAppContextSetup(webAppConfiguration).build();
-        String content = mockMvc.perform(MockMvcRequestBuilders.get(url))
-                .andExpect(MockMvcResultMatchers.status().isOk())
-                .andReturn().getResponse().getContentAsString();
-        System.out.println(content);
+        dealDao.queryDealInfo("","");
+        DealPo dealPo = new DealPo();
+        dealPo.setNum(650);
+        dealPo.setTime(DateUtils.getDateFormat().parse("2018-10-17"));
+        dealPo.setType(HourseType.NEW.value);
+        dealPo.setAreaId(Area.ZHONGXIN.value);
+        dealPo.setAreaName(Area.ZHONGXIN.name);
+        dealPo.setAreaType(AreaType.MAIN_CITY.value);
+        dealDao.addDeal(dealPo);
     }
-
-//    @org.junit.Test
-//    public void test() throws Exception{
-//        dataService.crawelDealInfo();
-//        dataService.crawelPreSaleInfo();
-//        dealDao.queryDealInfo("2017-07-01", "2018-12-12");
-//        dealDao.querySum("2017-07-01", "2018-12-12");
-//        preSaleDao.queryPreSale("2017-07-01", "2018-12-12");
-//        preSaleDao.querySum("2017-07-01", "2018-12-12");
-//    }
 
 }
