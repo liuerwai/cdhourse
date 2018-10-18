@@ -95,8 +95,8 @@ public class Controller {
             result.get("newHourse").add(map1.get(item));
             result.get("secondHourse").add(map2.get(item));
             result.get("newHourseMainCity").add(map3.get(item));
-            result.get("secondHourseMainCity").add(map4.get(item));
-            result.get("newHourseDistantCity").add(map5.get(item));
+            result.get("newHourseDistantCity").add(map4.get(item));
+            result.get("secondHourseMainCity").add(map5.get(item));
             result.get("secondHourseDistantCity").add(map6.get(item));
         }
 
