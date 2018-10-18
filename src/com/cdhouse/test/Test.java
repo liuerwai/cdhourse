@@ -22,6 +22,8 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
+import java.util.List;
+
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
@@ -58,7 +60,6 @@ public class Test {
     @org.junit.Test
     public void test() throws Exception{
 
-        dealDao.queryDealInfo("","");
         DealPo dealPo = new DealPo();
         dealPo.setNum(650);
         dealPo.setTime(DateUtils.getDateFormat().parse("2018-10-17"));
@@ -67,6 +68,30 @@ public class Test {
         dealPo.setAreaName(Area.ZHONGXIN.name);
         dealPo.setAreaType(AreaType.MAIN_CITY.value);
         dealDao.addDeal(dealPo);
+
+
+        dealPo.setNum(350);
+        dealPo.setType(HourseType.NEW.value);
+        dealPo.setAreaId(Area.JIAOQU.value);
+        dealPo.setAreaName(Area.JIAOQU.name);
+        dealPo.setAreaType(AreaType.DISTANT_CITY.value);
+        dealDao.addDeal(dealPo);
+
+        dealPo.setNum(220);
+        dealPo.setType(HourseType.SECOEND.value);
+        dealPo.setAreaId(Area.ZHONGXIN.value);
+        dealPo.setAreaName(Area.ZHONGXIN.name);
+        dealPo.setAreaType(AreaType.MAIN_CITY.value);
+        dealDao.addDeal(dealPo);
+
+        dealPo.setNum(100);
+        dealPo.setType(HourseType.SECOEND.value);
+        dealPo.setAreaId(Area.JIAOQU.value);
+        dealPo.setAreaName(Area.JIAOQU.name);
+        dealPo.setAreaType(AreaType.DISTANT_CITY.value);
+        dealDao.addDeal(dealPo);
+        List list = dealDao.queryDealInfo("","");
+        list.size();
     }
 
 }

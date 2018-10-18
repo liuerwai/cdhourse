@@ -24,6 +24,7 @@
       <sourceFolder url="file://$MODULE_DIR$/crawl" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/schedule" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/resource" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/data" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
