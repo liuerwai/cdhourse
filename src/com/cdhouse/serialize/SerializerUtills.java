@@ -14,7 +14,7 @@ import java.util.Map;
 
 public class SerializerUtills {
 
-    public final static String presalePath = SerializerUtills.class.getClassLoader().getResource("").getPath() + "../../../date/presaleMap.ser";
+    public final static String presalePath = SerializerUtills.class.getClassLoader().getResource("").getPath() + "../../../data/presaleMap.ser";
     public final static String dealPath = SerializerUtills.class.getClassLoader().getResource("").getPath() + "../../../data/dealPathMap.ser";
 
     public static void main(String[] args) {
