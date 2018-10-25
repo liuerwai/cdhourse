@@ -13,3 +13,4 @@ myAlltest/
 /.settings/
 /.classpath
 /target/
+*.war
