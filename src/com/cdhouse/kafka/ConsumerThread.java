@@ -11,7 +11,7 @@ public class ConsumerThread implements Runnable {
     }
 
     @Override
-    public void run() {
+    public void run(){
         try {
             consumer.receiveDealMessage();
         } catch (Exception e){
