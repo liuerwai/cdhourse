@@ -1,5 +1,6 @@
 package com.cdhouse.springconfig;
 
+import com.cdhouse.kafka.Producer;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.*;
@@ -52,6 +53,11 @@ public class RootConfig {
         DataSourceTransactionManager manager = new DataSourceTransactionManager();
         manager.setDataSource(dataSource());
         return manager;
+    }
+
+    public Producer producer(){
+
+        return new Producer();
     }
 
 }

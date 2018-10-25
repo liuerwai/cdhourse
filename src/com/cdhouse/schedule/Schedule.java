@@ -4,6 +4,7 @@ import com.cdhouse.data.service.IDataService;
 import com.cdhouse.kafka.Consumer;
 import com.cdhouse.kafka.ConsumerThread;
 import com.cdhouse.kafka.DealConsumerMessageImpl.CdhourseKafkaConsuerDeal;
+import com.cdhouse.kafka.Producer;
 import com.cdhouse.utils.LoggerUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.PropertySource;
@@ -23,6 +24,9 @@ public class Schedule {
     @Autowired
     IDataService dataService;
 
+    @Autowired
+    Producer producer;
+
     @Scheduled(cron = "0 50 17 * * *")
     @Async
     public void schedulPreSaleCrawl() throws Exception{
@@ -34,6 +38,7 @@ public class Schedule {
         } catch (Exception e){
             e.printStackTrace();
             LoggerUtils.error("爬取预售信息出错：" + e.getMessage());
+            producer.publish(e.getMessage(), "error");
         }
     }
 
@@ -48,6 +53,7 @@ public class Schedule {
         } catch (Exception e){
             e.printStackTrace();
             LoggerUtils.error("爬取交易信息出错：" + e.getMessage());
+            producer.publish(e.getMessage(), "error");
         }
     }
 
@@ -55,7 +61,7 @@ public class Schedule {
     public void initekafkaConsumer(){
         Consumer consumer = new Consumer("cdhourseConsumerGroup");
         consumer.addDeal(new CdhourseKafkaConsuerDeal());
-        consumer.subcribe("liuxg3");
+        consumer.subcribe("error");
         ConsumerThread consumerThread = new ConsumerThread(consumer);
         ScheduledExecutorService executorService = Executors.newScheduledThreadPool(2);
         executorService.scheduleAtFixedRate(consumerThread, 1, 1, TimeUnit.HOURS);
