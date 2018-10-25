@@ -1,4 +1,4 @@
-package com.cdhouse.kafka;
+package com.cdhouse.kafka.DealConsumerMessageDao;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 

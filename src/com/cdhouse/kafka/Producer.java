@@ -15,7 +15,7 @@ public class Producer {
     public org.apache.kafka.clients.producer.Producer producer;
 
     private String server = PropertyUtils.INSTANCE.getPropertiesKey("kafka.bootstrap.servers");
-    private String project = PropertyUtils.INSTANCE.getPropertiesKey("kafka.consumer.groupid");
+    private String project = PropertyUtils.INSTANCE.getPropertiesKey("kafka.project");
 
     public Producer() {
         Properties props = new Properties();

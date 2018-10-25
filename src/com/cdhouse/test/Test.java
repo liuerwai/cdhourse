@@ -6,21 +6,13 @@ import com.cdhouse.dao.IDealDao;
 import com.cdhouse.dao.IPreSaleDao;
 import com.cdhouse.data.crawl.IPreSaleCrawl;
 import com.cdhouse.data.service.impl.DataServiceImpl;
-import com.cdhouse.kafka.CdhourseKafkaConsuerDeal;
-import com.cdhouse.kafka.Consumer;
-import com.cdhouse.kafka.ConsumerThread;
-import com.cdhouse.kafka.Producer;
 import com.cdhouse.springconfig.RootConfig;
-import com.cdhouse.utils.PropertyUtils;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.web.context.WebApplicationContext;
-
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -98,25 +90,24 @@ public class Test {
 //        list.size();
 //    }
 
-//    @org.junit.Test
-//    public void test()throws Exception{
-//
-//        dataService.crawelPreSaleInfo();
-//    }
+    @org.junit.Test
+    public void test()throws Exception{
+
+        dataService.crawelPreSaleInfo();
+    }
 
 
     public static void main(String[] args) throws Exception{
-        Consumer consumer = new Consumer("group3");
-        consumer.subcribe("liuxg3");
-        consumer.addDeal(new CdhourseKafkaConsuerDeal());
-        ExecutorService executorService = Executors.newCachedThreadPool();
-        executorService.execute(new ConsumerThread(consumer));
-        Producer producer = new Producer();
-        while (true){
-            producer.publish("我是一个兵", "liuxg3");
-            Thread.sleep(10000);
-        }
-
+//        Consumer consumer = new Consumer("group3");
+//        consumer.subcribe("liuxg3");
+//        consumer.addDeal(new CdhourseKafkaConsuerDeal());
+//        ExecutorService executorService = Executors.newCachedThreadPool();
+//        executorService.execute(new ConsumerThread(consumer));
+//        Producer producer = new Producer();
+//        while (true){
+//            producer.publish("我是一个兵", "liuxg3");
+//            Thread.sleep(10000);
+//        }
     }
 
 

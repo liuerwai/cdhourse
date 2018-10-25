@@ -1,5 +1,7 @@
 package com.cdhouse.kafka;
 
+import com.cdhouse.kafka.DealConsumerMessageDao.IKafkaConsumerDeal;
+import com.cdhouse.kafka.DealConsumerMessageImpl.CdhourseKafkaConsuerDeal;
 import com.cdhouse.utils.PropertyUtils;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
@@ -31,7 +33,7 @@ public class Consumer {
 
         Properties props = new Properties();
         // 该配置设置消费者在开始读取一个没有提交偏移量或该偏移量为非法的分区时如何重置该偏移量 earliest 从头开始  latest 从结尾开始
-        props.put("auto.offset.reset", "earliest");
+        props.put("auto.offset.reset", "latest");
         //
         props.put("bootstrap.servers", servers);
         props.put("group.id", groupId);
@@ -86,7 +88,7 @@ public class Consumer {
      * 增加处理
      * @param deal
      */
-    public void addDeal(IKafkaConsumerDeal deal){
+    public void addDeal(CdhourseKafkaConsuerDeal deal){
 
         synchronized (deals) {
             deals.add(deal);

@@ -1,5 +1,7 @@
 package com.cdhouse.kafka;
 
+import com.cdhouse.utils.MailUtils;
+
 public class ConsumerThread implements Runnable {
 
     private Consumer consumer;
@@ -10,8 +12,10 @@ public class ConsumerThread implements Runnable {
 
     @Override
     public void run() {
-        while (true) {
+        try {
             consumer.receiveDealMessage();
+        } catch (Exception e){
+            MailUtils.sendMail("cdhourse报错", e.getMessage(), "liuxg@channelsoft.com");
         }
     }
 }
