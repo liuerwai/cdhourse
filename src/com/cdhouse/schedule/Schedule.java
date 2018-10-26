@@ -56,15 +56,4 @@ public class Schedule {
             producer.publish(e.getMessage(), "error");
         }
     }
-
-    @PostConstruct
-    public void initekafkaConsumer(){
-        Consumer consumer = new Consumer("cdhourseConsumerGroup");
-        consumer.addDeal(new CdhourseKafkaConsuerDeal());
-        consumer.subcribe("error");
-        ConsumerThread consumerThread = new ConsumerThread(consumer);
-        ScheduledExecutorService executorService = Executors.newScheduledThreadPool(2);
-        executorService.scheduleAtFixedRate(consumerThread, 1, 1, TimeUnit.HOURS);
-    }
-
 }
